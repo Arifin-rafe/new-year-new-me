@@ -1,0 +1,57 @@
+/*  header */
+
+
+.all-header1{
+    display: flex;
+    align-items: center;
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+.btn-primary{
+    background-color: orangered;
+    border: none;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+}
+.list{
+    text-decoration: none;
+}
+.all-person{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.person{
+    text-align: center;
+}
+
+
+
+
+/*my plans*/
+.my-plans{
+    text-align: center;
+}
+
+.all-plans{
+    text-align: center;
+}
+.plans-info-all{
+    display: flex;
+    justify-content: space-around;
+}
+.all-plans-container{
+width: 1141px;
+height: 299.96px;
+left: 230px;
+top: 1792.3px;
+    
+}
+.plan-info{
+    
+}
