@@ -1,57 +1,76 @@
 /*  header */
 
 
-.all-header1{
+.all-header1 {
     display: flex;
     align-items: center;
     max-width: 25%;
-    max-height:15%;
+    max-height: 15%;
     float: left;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: orangered;
     border: none;
     width: 160px;
     height: 64px;
     left: 1210px;
     top: 578px;
+    margin-top: 50px;
 }
-.list{
+
+.list {
     text-decoration: none;
 }
-.all-person{
-    
+
+.all-person {
+
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
-.person{
+
+.person {
     text-align: center;
 }
-
-
-
 
 /*my plans*/
-.my-plans{
+.my-plans {
     text-align: center;
 }
 
-.all-plans{
+.all-plans {
     text-align: center;
 }
-.plans-info-all{
+
+.plans-info-all {
     display: flex;
     justify-content: space-around;
 }
-.all-plans-container{
-width: 1141px;
-height: 299.96px;
-left: 230px;
-top: 1792.3px;
-    
+
+.all-plans-container {
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+
 }
-.plan-info{
-    
+
+.plan-info {}
+
+/*future styles*/
+.future {
+    display: flex;
+    gap: 1000px;
+
+
+}
+
+.future .section-title {
+    text-align: left;
+
+}
+
+#email {
+    background-color: ;
 }
