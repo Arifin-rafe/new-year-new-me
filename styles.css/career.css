@@ -1,43 +1,104 @@
 /*  header */
-
-
-.all-header1 {
-    display: flex;
-    align-items: center;
-    max-width: 25%;
-    max-height: 15%;
-    float: left;
+.body{
+    margin: 0%;
 }
+.all-header {
+    position: relative;
+
+}
+
+.all-header-text {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    color: black;
+
+}
+
+.headline {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+
+}
+
+.headline-small {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
 
 .btn-primary {
     background-color: orangered;
-    border: none;
     width: 160px;
     height: 64px;
-    left: 1210px;
-    top: 578px;
-    margin-top: 50px;
+    color: aliceblue;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    border-radius: 5px;
 }
 
-.list {
-    text-decoration: none;
-}
 
 .all-person {
-
     display: flex;
-    justify-content: space-between;
-
+    align-items: center;
+    gap: 150px;
 
 }
 
-.person {
-    text-align: center;
+.person h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.person p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #444343;
+}
+
+.list li {
+    list-style-type: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.check {
+    color: #16D887;
+    width: 24px;
+    height: 24px;
 }
 
 /*my plans*/
 .my-plans {
     text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
 }
 
 .all-plans {
@@ -47,30 +108,133 @@
 .plans-info-all {
     display: flex;
     justify-content: space-around;
-}
-
-.all-plans-container {
-    height: 299.96px;
-    left: 230px;
-    top: 1792.3px;
+    text-align: center;
 
 }
 
-.plan-info {}
+.plan-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
 
-/*future styles*/
+}
+
+.plan-des {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+
+}
+
+.watch-container {
+    position: relative;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.watch-text {
+    position: absolute;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    height: 300px;
+    width: 1140px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+
+}
+
+.watch-text h3 {
+    margin-left: 64px;
+}
+
+.btn-call {
+    height: 64px;
+    width: 160px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    margin-left: 64px;
+}
+
+.section-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
 .future {
+    margin-left: 50px;
+}
+
+.future p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.footer-container {
+    
+    background-color: #151414;
     display: flex;
-    gap: 1000px;
+    margin-top: 400px;
+    gap: 250px;
+    
 
 
-}
-
-.future .section-title {
-    text-align: left;
 
 }
 
-#email {
-    background-color: ;
+.subscribe {
+    margin-top: 40px;
+}
+
+.subscribe-title {
+    color: #F8F8F8;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.mail {
+    padding: 15px;
+    background-color: #151414;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.btn-subscribe {
+    height: 64px;
+    width: 170px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border-radius: 8px;
 }
